@@ -1,0 +1,470 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-28T01:30:16.240Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:18)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify user log in credentials",
+        "description": "",
+        "id": "login-page-tests;verify-user-log-in-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat utils.SeleniumUtils.waitForPageToLoad(SeleniumUtils.java:37)\r\n\tat utils.Screenshot.takeScreenshot(Screenshot.java:11)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:27)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I open \"http://automation.techleadacademy.io/#/usermgt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automation.techleadacademy.io/#/usermgt\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I click a button \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I input \"student@techleadacademy.io\" as a \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student@techleadacademy.io\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I input \"john.smith$\" as a \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john.smith$\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click a button \"Login user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I verify title is \"Student Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Student Page\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iVerifyTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@userCredentialsTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-28T01:30:16.392Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:18)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Verify user log in credentials",
+        "description": "",
+        "id": "login-page-tests;verify-user-log-in-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat utils.SeleniumUtils.waitForPageToLoad(SeleniumUtils.java:37)\r\n\tat utils.Screenshot.takeScreenshot(Screenshot.java:11)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:27)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I open \"http://automation.techleadacademy.io/#/usermgt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automation.techleadacademy.io/#/usermgt\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I click a button \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I input \"mentor@techleadacademy.io\" as a \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mentor@techleadacademy.io\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I input \"stephanie.adams$\" as a \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stephanie.adams$\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click a button \"Login user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I verify title is \"Mentor Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mentor Page\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iVerifyTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@userCredentialsTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-28T01:30:16.406Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:18)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Verify user log in credentials",
+        "description": "",
+        "id": "login-page-tests;verify-user-log-in-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utils.Driver.getDriver(Driver.java:25)\r\n\tat utils.SeleniumUtils.waitForPageToLoad(SeleniumUtils.java:37)\r\n\tat utils.Screenshot.takeScreenshot(Screenshot.java:11)\r\n\tat step_definitions.Hooks.tearDown(Hooks.java:27)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I open \"http://automation.techleadacademy.io/#/usermgt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automation.techleadacademy.io/#/usermgt\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I click a button \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I input \"instructor@techleadacademy.io\" as a \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"instructor@techleadacademy.io\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 45
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I input \"kate.anderson$\" as a \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kate.anderson$\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click a button \"Login user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I verify title is \"Instructor Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Instructor Page\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.classTaskSteps.iVerifyTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@userCredentialsTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login page tests",
+    "description": "",
+    "id": "login-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
